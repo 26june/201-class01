@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <h1>Class 1 Lab</h1>
+      <script>
+        let q1Answer = prompt("What is your name?");
+        console.log(`Answer to Q1: ${q1Answer}`);
+      </script>
+      <div class="content-container">
+        <img
+          id="pokeHolderFront"
+          alt="pokemon"
+          src="data:image/svg+xml;charset=utf8,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%3E%3C/svg%3E"
+        />
+        <script>
+          let pokeAnswer = prompt("What is your favourite pokemon?");
+          getPokemon(pokeAnswer);
+        </script>
+
+        <p>
+          <script>
+            document.write(pokeAnswer);
+          </script>
+          says: Have a nice day
+          <script>
+            document.write(q1Answer);
+          </script>
+          !
+        </p>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+</html>

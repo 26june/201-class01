@@ -1,0 +1,34 @@
+img {
+  height: 250px;
+}
+
+.content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: black;
+  background-color: blanchedalmond;
+}
+
+#q1 {
+  color: azure;
+  background-color: gainsboro;
+}
+
+#q2 {
+  color: darkorchid;
+  background-color: #fffdd0;
+}
+
+#q3 {
+  color: whitesmoke;
+  background-color: #ff6f6c;
+}
+
+#q4 {
+  color: lightcoral;
+  background-color: lightgoldenrodyellow;
+}
